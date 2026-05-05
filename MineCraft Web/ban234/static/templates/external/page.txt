@@ -1,0 +1,1 @@
+<li class="{{ status }} page-item"><a class="page-link" data-page="{{ page }}">{{ text }}</a></li>

@@ -1,0 +1,83 @@
+
+* {
+    font-family: Mitr;
+    box-sizing: border-box
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.tab-button {
+	background-color: #ffffff;
+	border-radius: 0.50rem;
+	border: 2px solid #d3d3d3;
+	display:inline-block;
+	cursor:pointer;
+	padding:6px 24px;
+	text-decoration:none;
+    transition: 150ms;
+    position: relative;
+}
+    
+.tab-button:hover {
+    transition: 250ms;
+    transition-delay: 0ms;
+	background-color: #e6e6e6;
+    transform: translateY(-3px);
+    position: relative;
+}
+
+.tab-button:active {
+    transform: scale(0.98);
+    transition: 150ms;
+    transition-delay: 0ms;
+    position: relative;
+	background-color: #d3d3d3;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+    
+}
+.navbar{
+    justify-content: center;
+}
+
+/* ในโทรศัพท์ */
+@media only screen and (max-width: 600px) {
+    .villa-bg-top {
+        background: url(pic/bg-villacraft.png) 50%;
+        border-radius: 15px 15px 0px 0px / 20px 20px 0px 0px;
+        height: 15vh;
+    }
+    .villa-img-logo{
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+    }
+}
+
+/* ในคอม */
+@media only screen and (min-width: 768px) {
+    .villa-bg-top{
+        background: url(pic/bg-villacraft.png) 50%;
+        border-radius: 30px 30px 0px 0px / 35px 35px 0px 0px;
+        height: 300px;
+    }
+    .villa-img-logo {
+        width: 200px;
+        height: 200px;
+        margin-top: 65px;
+    }
+}

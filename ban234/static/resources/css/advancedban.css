@@ -1,0 +1,28 @@
+.table-wrapper {
+	overflow-x: auto;
+}
+
+.dropdown-menu {
+	max-height: 50vh;
+	overflow: auto;
+}
+
+.search .dropdown {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+td {
+	vertical-align: middle !important;
+}
+
+.name, .operator {
+	white-space: nowrap;
+}
+
+td img {
+	margin-right: 10px;
+}
+
+.warning {background-color: #ffae00;} /* Orange */
+.warning:hover {background: #e69600;}

@@ -1,0 +1,38 @@
+{
+    "version": "stable",
+    "mod_rewrite": false,
+    "default": {
+        "theme": "Photon",
+        "language": "th-TH"
+    },
+    "language": {
+        "title": "Villacraft - Banlist",
+        "description": "ตรวจสอบข้อมูลการลงโทษผู้เล่นที่ทำผิดกฏของเซิร์ฟเวอร์"
+    },
+    "player_count": {
+        "enabled": "true",
+        "query": "true",
+        "host": "play.mc-Villacraft.online",
+        "port": "25565"
+    },
+    "navigation": {
+        "contact": {
+            "enabled": true,
+            "link": ""
+        },
+        "appeal": {
+            "enabled": "false",
+            "link": ""
+        }
+    },
+    "private_page": {
+        "enabled": false,
+        "password": "funny"
+    },
+    "setup": {
+        "completed": true
+    },
+    "debug": {
+        "enabled": false
+    }
+}

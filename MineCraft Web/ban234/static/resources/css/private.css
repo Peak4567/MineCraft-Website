@@ -1,0 +1,94 @@
+/* Desktop styles */
+@media only screen and (min-width: 768px) {
+    .text-title {
+        margin-top: 2rem;
+    }
+    
+    .text-basic {
+        font-size: 1.5rem;
+    }
+    
+    .submit-button {
+        margin-left: 41.25rem;
+        z-index: 1;
+    }
+    
+    .passwordfield {
+        max-width: 30%;
+        min-width: 30%;
+    }
+    
+    .error {
+        margin-top: 0.625rem;
+    }
+}
+.shadow {
+    border-radius: 4px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+.password-form {
+    overflow: hidden;
+}
+
+/* Phone styles */
+@media only screen and (max-width: 768px) {
+    .text-title {
+        margin-top: 2rem;
+    }
+    
+    .title {
+        text-align: center;
+        max-width: 20rem;
+        font-size: 3rem;
+    }
+    
+    .text-basic {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    .submit-button {
+        margin-left: 15.75rem;
+        z-index: 1;
+    }
+    
+    .passwordfield {
+        width: 75%;
+    }
+    
+    .error {
+        margin-top: 0.125rem;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .text-title {
+        margin-top: 2rem;
+    }
+    
+    .title {
+        font-size: 3rem;
+        max-width: 55rem;
+    }
+    
+    .text-basic {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    .submit-button {
+        margin-right: 10rem;
+        z-index: 1;
+    }
+
+    .passwordfield {
+        width: 35%;
+    }
+
+    .error {
+        margin-top: 0.125rem;
+    }
+}
